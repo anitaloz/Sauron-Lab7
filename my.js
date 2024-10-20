@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $(".slider").slick({
+        dots:true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive:[{
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots:true}
+        }]
+    });
+});
