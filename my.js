@@ -2,15 +2,16 @@ $(document).ready(function(){
     $(".slider").slick({
         dots:true,
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
         responsive:[{
             breakpoint: 900,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
+                dots:true,
                 infinite: true,
-                dots:true}
-        }]
+                slidesToScroll: 1,
+                slidesToShow: 1
+                }
+        }],
+        slidesToScroll: 3,
+        slidesToShow: 3
     });
 });
