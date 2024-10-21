@@ -2,6 +2,10 @@ html{
     background-color: #000000;
 }
 
+.wrapper{
+    margin:0;
+}
+
 .slick-track{
     display: flex;
     min-width:0;
